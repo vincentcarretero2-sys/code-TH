@@ -23,7 +23,7 @@ def Pr(T):
     return mu(T)*Cp(T)/k(T)
 
 # Correlations 
-
+# je fais genre j'ai modifié
 # Re > 10000 and 0.7 < Pr < 160 and L/D > 10
 def dittus_bolter(Re,Pr):
     if Re < 8000:
