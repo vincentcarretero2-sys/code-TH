@@ -30,7 +30,7 @@ def dittus_bolter(Re,Pr):
         raise ValueError("Reynolds number must be greater than 10000")
     else:
         alpha = 0.8
-        beta = 0.4
+        beta = 0.3
         Nu = 0.023 * Re**alpha * Pr**beta
     return Nu
 
