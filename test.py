@@ -26,7 +26,7 @@ def Pr(T):
 
 # Re > 10000 and 0.7 < Pr < 160 and L/D > 10
 def dittus_bolter(Re,Pr):
-    if Re < 10000:
+    if Re < 8000:
         raise ValueError("Reynolds number must be greater than 10000")
     else:
         alpha = 0.8
